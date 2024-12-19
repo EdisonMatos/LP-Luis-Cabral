@@ -61,8 +61,8 @@ export const infos = {
   domain: "luishenriquecabraladv.com.br", // Sem "www"
   phone: {
     ddd: "11",
-    firstPart: "98345", // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: "6295", // Apenas os 4 últimos números
+    firstPart: "98884", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5496", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
