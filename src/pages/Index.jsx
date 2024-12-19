@@ -28,7 +28,7 @@ export default function Index() {
       <Features modal={false} />
       {/* <FeaturesResumed /> */}
       <About modal={true} />
-      <AboutInstagram />
+      {/* <AboutInstagram /> */}
       <Cta />
       <Steps />
       <Faq />

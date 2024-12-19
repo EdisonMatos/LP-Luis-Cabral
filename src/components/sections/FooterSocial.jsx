@@ -157,7 +157,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                   <div className="flex gap-[10px] items-center">
                     {/* Instagram icon */}
 
-                    <a
+                    {/* <a
                       href={content.texts.links.instagram}
                       target="_blank"
                       aria-label="Link para o Instagram"
@@ -190,7 +190,7 @@ export default function FooterSocial({ LightMode, addres, obs }) {
                           </svg>
                         }
                       />
-                    </a>
+                    </a> */}
 
                     {/* Instagram icon */}
 
