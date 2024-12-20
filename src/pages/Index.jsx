@@ -12,6 +12,7 @@ import FloatingWhatsappButton from "../components/interactives/FloatingWhatsappB
 import BackToTopButton from "../components/interactives/BackToTopButton";
 import FeaturesButton from "../components/sections/FeaturesButton";
 import FeaturesResumed from "../components/sections/FeaturesResumed";
+import AboutInstagramBgImg from "../components/sections/AboutInstagramBgImg";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -29,6 +30,7 @@ export default function Index() {
       {/* <FeaturesResumed /> */}
       <About modal={true} />
       {/* <AboutInstagram /> */}
+      <AboutInstagramBgImg />
       <Cta />
       <Steps />
       <Faq />
