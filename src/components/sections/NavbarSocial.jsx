@@ -107,11 +107,11 @@ export default function NavbarSocial({ LightMode }) {
               className={`${
                 LightMode
                   ? scrolling
-                    ? "bg-transparent w-[30%] tablet2:w-[20%] desktop1:w-[25%] desktop2:w-[30%] transition-all duration-1000"
-                    : "bg-white my-[20px] w-[30%] tablet2:w-[25%] desktop1:w-[30%] desktop2:w-[40%] transition-all duration-1000"
+                    ? "bg-transparent w-[30%] tablet2:w-[20%] desktop1:w-[20%] transition-all duration-1000"
+                    : "bg-white my-[20px] w-[30%] tablet2:w-[25%] desktop1:w-[25%] transition-all duration-1000"
                   : scrolling
-                  ? "bg-transparent w-[30%] tablet2:w-[20%] desktop1:w-[25%] desktop2:w-[30%] transition-all duration-1000"
-                  : "bg-transparent my-[20px] w-[40%] tablet2:w-[25%] desktop1:w-[30%] desktop2:w-[40%] transition-all duration-1000"
+                  ? "bg-transparent w-[30%] tablet2:w-[20%] desktop1:w-[20%] transition-all duration-1000"
+                  : "bg-transparent my-[20px] w-[40%] tablet2:w-[25%] desktop1:w-[25%] transition-all duration-1000"
               } tablet3:mb-0`}
             />
           </ScrollLink>
