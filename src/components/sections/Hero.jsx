@@ -21,7 +21,7 @@ export default function Hero() {
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
-          <div className="h-[125px] desktop3:h-[140px] phone3:mb-[25px] tablet1:mb-[45px]" />
+          <div className="h-[125px] desktop3:h-[140px] phone3:mb-[25px] tablet1:mb-[45px] desktop1:mb-[0px]" />
           <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivDownToUp>
