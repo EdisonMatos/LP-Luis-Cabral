@@ -21,7 +21,7 @@ export default function Hero() {
     >
       <div className="relative z-10 flex w-full bg-black bg-opacity-0 items-left">
         <div className="w-full text-secondary justify-evenly">
-          <div className="h-[125px] desktop3:h-[140px]" />
+          <div className="h-[125px] desktop3:h-[140px] phone3:mb-[25px] tablet1:mb-[45px]" />
           <div className="flex flex-col-reverse gap-[40px]  desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[46px] desktop1:pt-[68px] desktop1:pb-[96px]">
             <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
               <MotionDivDownToUp>
@@ -105,13 +105,10 @@ export default function Hero() {
                   alt="Foto de itens do direito"
                   className="bg-red-500 "
                 /> */}
-                <div
-                  className="bg-top rounded-xl w-full h-[350px] tablet1:h-[380px] desktop1:h-[500px] desktop1:w-[500px] bg-cover bg-no-repeat shadow-custom-opacity shadow-black/30"
-                  style={{
-                    backgroundImage: `url(${content.texts.hero.heroImg})`,
-                    backgroundSize: "",
-                  }}
-                ></div>
+                <img
+                  src={content.texts.hero.heroImg}
+                  className="bg-top rounded-xl w-full  desktop1:w-[500px] shadow-custom-opacity shadow-black/30"
+                ></img>
                 <img
                   src={imgPoints}
                   alt="Imagem de efeito pontilhado"
