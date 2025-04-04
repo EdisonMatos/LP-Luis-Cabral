@@ -13,6 +13,7 @@ import BackToTopButton from "../components/interactives/BackToTopButton";
 import FeaturesButton from "../components/sections/FeaturesButton";
 import FeaturesResumed from "../components/sections/FeaturesResumed";
 import AboutInstagramBgImg from "../components/sections/AboutInstagramBgImg";
+import BlogPosts from "../components/sections/BlogPosts";
 
 // Para ativar o modal na Sessão Feature, copiar e colar: modal={true} e remover para desativar.
 // Para ativar o modal na Sessão About, copiar e colar: modal={true} e remover para desativar.
@@ -31,6 +32,7 @@ export default function Index() {
       <About modal={true} />
       <AboutInstagram />
       {/* <AboutInstagramBgImg /> */}
+      <BlogPosts/>
       <Cta />
       <Steps />
       <Faq />
