@@ -20,8 +20,8 @@ export default function AboutInstagram() {
 
   return (
     <SectionArea id="about" className="bg-bgSectionDark" paddingtop={false}>
-      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px]  desktop1:gap-x-[40px]  desktop1:justify-between">
-        <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[485px] flex justify-center">
+      <SectionWrapper className="flex flex-col desktop1:flex-row gap-[40px] desktop1:gap-x-[40px] desktop1:justify-between">
+        <MotionDivDownToUp className="relative w-[100%] desktop1:w-[415px] desktop2:w-[350px] flex justify-center">
           {/* <img
             src={imgPhone}
             className="desktop1:bg-center bg-no-repeat bg-cover h-[450px] tablet1:h-[800px] desktop1:h-[760px] rounded-2xl"
