@@ -183,7 +183,7 @@ export default function AboutInstagram() {
 
           <MotionDivDownToUp className="mt-6">
             <Button
-              label="Siga-nos no Youtube"
+              label="Siga-nos no YouTube"
               buttonLink={content.texts.links.youtube}
               icon={<Youtube />}
             />
