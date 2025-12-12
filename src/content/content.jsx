@@ -305,10 +305,9 @@ const content = {
           robusto e humanizado.
           <br />
           <br />
-          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência em
-          diversas áreas do Direito, incluindo Direito Trabalhista, Direito do
-          Consumidor, Direito Cível e Direito de Família, sempre com foco na
-          ética, transparência e eficiência.
+          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência na
+          área do Direito Trabalhista, sempre com foco na ética, transparência e
+          eficiência.
           <br />
           <br />
           Sua atuação é pautada pela busca incansável pela justiça, aliando
@@ -348,9 +347,11 @@ const content = {
           '⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!',
         paragraph: (
           <p>
-            Acompanhe nossas postagens e fique atualizado sobre Direito Cível,
-            Trabalhista, de Família e mais. Não perca a oportunidade de
-            transformar conhecimento em poder para proteger seus direitos.
+            Acompanhe nossas postagens e fique atualizado sobre Direito
+            Trabalhista. Não perca a oportunidade de transformar conhecimento em
+            poder para proteger seus direitos.
+            <br />
+            Garanta sua proteção legal com cada informação compartilhada!
           </p>
         ),
       },
