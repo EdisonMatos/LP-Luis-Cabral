@@ -1,42 +1,42 @@
-import logo from '../assets/imgs/logo/logo.webp'
-import heroImg from '../assets/imgs/hero/lawHero.jpg'
-import bgHeroImg from '../assets/imgs/hero/bgHero.webp'
+import logo from "../assets/imgs/logo/logo.webp";
+import heroImg from "../assets/imgs/hero/lawHero.jpg";
+import bgHeroImg from "../assets/imgs/hero/bgHero.webp";
 
-import imgFeatures from '../assets/imgs/features/imgServices.webp'
-import imgDivisor from '../assets/imgs/features/imgDivisor.jpg'
+import imgFeatures from "../assets/imgs/features/imgServices.webp";
+import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
-import aboutImg1 from '../assets/imgs/about/aboutImg.webp'
-import aboutSocialImg from '../assets/imgs/about/aboutSocial.webp'
+import aboutImg1 from "../assets/imgs/about/aboutImg.webp";
+import aboutSocialImg from "../assets/imgs/about/aboutSocial.webp";
 
-import imgSteps from '../assets/imgs/steps/imgSteps.webp'
+import imgSteps from "../assets/imgs/steps/imgSteps.webp";
 
-import numbersImgBg from '../assets/imgs/paralaxe/bgParalaxe1.jpg'
+import numbersImgBg from "../assets/imgs/paralaxe/bgParalaxe1.jpg";
 
-import trustedByImg1 from '../assets/imgs/trustedBy/item1.jpg'
-import trustedByImg2 from '../assets/imgs/trustedBy/item2.jpg'
-import trustedByImg3 from '../assets/imgs/trustedBy/item3.jpg'
+import trustedByImg1 from "../assets/imgs/trustedBy/item1.jpg";
+import trustedByImg2 from "../assets/imgs/trustedBy/item2.jpg";
+import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 
-import featuresImg1 from '../assets/imgs/features/imgFeatures1.jpg'
-import featuresImg2 from '../assets/imgs/features/imgFeatures2.jpg'
-import featuresImg3 from '../assets/imgs/features/imgFeatures3.jpg'
-import featuresImg4 from '../assets/imgs/features/imgFeatures4.jpg'
+import featuresImg1 from "../assets/imgs/features/imgFeatures1.jpg";
+import featuresImg2 from "../assets/imgs/features/imgFeatures2.jpg";
+import featuresImg3 from "../assets/imgs/features/imgFeatures3.jpg";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
 
-import imgFeaturesCardModal1 from '../assets/imgs/features/imgFeaturesCardModal1.jpg'
-import imgFeaturesCardModal2 from '../assets/imgs/features/imgFeaturesCardModal2.jpg'
-import imgFeaturesCardModal3 from '../assets/imgs/features/imgFeaturesCardModal3.jpg'
-import imgFeaturesCardModal4 from '../assets/imgs/features/imgFeaturesCardModal4.jpg'
+import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
+import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
+import imgFeaturesCardModal3 from "../assets/imgs/features/imgFeaturesCardModal3.jpg";
+import imgFeaturesCardModal4 from "../assets/imgs/features/imgFeaturesCardModal4.jpg";
 
-import ctaWhatsappImgBg from '../assets/imgs/paralaxe/bgParalaxe2.jpg'
+import ctaWhatsappImgBg from "../assets/imgs/paralaxe/bgParalaxe2.jpg";
 
-import teamMemberImg1 from '../assets/imgs/team/team1.webp'
-import teamMemberImg2 from '../assets/imgs/team/team2.webp'
-import teamMemberImg3 from '../assets/imgs/team/team3.webp'
-import teamMemberImg4 from '../assets/imgs/team/team4.webp'
+import teamMemberImg1 from "../assets/imgs/team/team1.webp";
+import teamMemberImg2 from "../assets/imgs/team/team2.webp";
+import teamMemberImg3 from "../assets/imgs/team/team3.webp";
+import teamMemberImg4 from "../assets/imgs/team/team4.webp";
 
-import imgTestimonial1 from '../assets/imgs/testimonials/deposition1.png'
-import imgTestimonial2 from '../assets/imgs/testimonials/deposition2.png'
-import imgTestimonial3 from '../assets/imgs/testimonials/deposition3.png'
-import imgTestimonial4 from '../assets/imgs/testimonials/deposition4.png'
+import imgTestimonial1 from "../assets/imgs/testimonials/deposition1.png";
+import imgTestimonial2 from "../assets/imgs/testimonials/deposition2.png";
+import imgTestimonial3 from "../assets/imgs/testimonials/deposition3.png";
+import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 
 import {
   Calculator,
@@ -54,18 +54,18 @@ import {
   Users,
   BriefcaseMedical,
   FileText,
-} from 'lucide-react'
+} from "lucide-react";
 
-const currentYear = new Date().getFullYear()
+const currentYear = new Date().getFullYear();
 
 export const infos = {
-  name: 'Dr. Luis Henrique Cabral',
-  email: 'contato', // Email desejado pelo cliente
-  domain: 'luishenriquecabraladv.com.br', // Sem "www"
+  name: "Dr. Luis Henrique Cabral",
+  email: "contato", // Email desejado pelo cliente
+  domain: "luishenriquecabraladv.com.br", // Sem "www"
   phone: {
-    ddd: '11',
-    firstPart: '98884', // Apenas os 5 primeiros números (incluindo o 9)
-    secondPart: '5496', // Apenas os 4 últimos números
+    ddd: "11",
+    firstPart: "98884", // Apenas os 5 primeiros números (incluindo o 9)
+    secondPart: "5496", // Apenas os 4 últimos números
   },
   endereco: (
     <div>
@@ -83,15 +83,15 @@ export const infos = {
     </div>
   ),
   obs: <span className="italic">A_Definir</span>,
-  instagramProfile: 'luishenriquecabral.adv41', // Sem o @
-  facebookProfile: 'A_Definir',
-  linkeDinProfile: 'A_Definir',
-  tiktokProfile: '@luishenriquecabraladv41',
-  youtubeProfile: 'luishenriquecabraladv41',
+  instagramProfile: "luishenriquecabral.adv41", // Sem o @
+  facebookProfile: "A_Definir",
+  linkeDinProfile: "A_Definir",
+  tiktokProfile: "@luishenriquecabraladv41",
+  youtubeProfile: "luishenriquecabraladv41",
   whatsappDefaultMessage:
-    'Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.',
-  slogan: '',
-}
+    "Olá! Vim através do site de vocês e gostaria de tirar umas dúvidas.",
+  slogan: "",
+};
 
 const content = {
   texts: {
@@ -104,12 +104,12 @@ const content = {
         img: logo,
         alt: `Logomarca ${infos.name}`,
       },
-      menuItems: ['Início', 'Serviços', 'Sobre Nós', 'Perguntas Frequentes'],
-      ctaButtonText: 'Contato',
-      ctaButtonTextResponsive: 'Contato',
+      menuItems: ["Início", "Serviços", "Sobre Nós", "Perguntas Frequentes"],
+      ctaButtonText: "Contato",
+      ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: 'ADVOGADO TRABALHISTA EM SÃO PAULO - SP',
+      miniTag: "ADVOGADO EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
           Proteja seus direitos
@@ -117,9 +117,9 @@ const content = {
         </h1>
       ),
       subtitle:
-        'Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.',
+        "Com soluções jurídicas eficazes, garantimos a defesa dos seus interesses em cada situação.",
       heroImg: heroImg,
-      ctaButtonText: 'Entre em contato',
+      ctaButtonText: "Entre em contato",
       obsHero: {
         icon: (
           <svg
@@ -139,52 +139,118 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: 'Atendimento presencial e online',
+        text: "Atendimento presencial e online",
       },
       ctaButtonAriaLabel:
-        'Botão para chamada de ação para contato pelo whatsapp',
-      secondaryCta: 'A_Definir',
+        "Botão para chamada de ação para contato pelo whatsapp",
+      secondaryCta: "A_Definir",
       images: {
         background: bgHeroImg,
         static: {
           img: {},
-          alt: '',
+          alt: "",
         },
         slide1: {
           img: {},
-          alt: '',
+          alt: "",
         },
         slide2: {
           img: {},
-          alt: '',
+          alt: "",
         },
         slide3: {
           img: {},
-          alt: '',
+          alt: "",
         },
       },
     },
     features: {
-      miniTag: 'ESPECIALIDADES',
-      title: 'Defenda o que é seu com confiança',
+      miniTag: "ESPECIALIDADES",
+      title: "Defenda o que é seu com confiança",
       subtitle:
-        'Resultados rápidos e eficazes para as suas necessidades jurídicas.',
+        "Resultados rápidos e eficazes para as suas necessidades jurídicas.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
         img: featuresImg1,
-        title: 'Reclamações de Horas Extras e Jornada',
+        title: "Direito Cível",
         subtitle:
-          'Cálculo de horas, banco e jornada, garantia dos seus direitos.',
+          "Orientação e defesa em contratos, cobranças, indenizações e conflitos civis.",
         description: (
           <div>
-            A_Definir
+            Atuação em questões envolvendo contratos, cobranças,
+            responsabilidade civil, indenizações e demais conflitos entre
+            pessoas ou empresas.
             <br />
             <br />
-            A_Definir
+            Análise jurídica do caso para identificar as medidas adequadas e
+            buscar uma solução segura para o conflito.
           </div>
         ),
         imgModal: imgFeaturesCardModal1,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8a5 5 0 0 1-6 0" />
+            <path d="m2 16 3-8 3 8a5 5 0 0 1-6 0" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h18" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+
+      card2: {
+        img: featuresImg2,
+        title: "Direito de Família",
+        subtitle:
+          "Assessoria em divórcio, guarda, pensão, inventário e questões familiares.",
+        description: (
+          <div>
+            Orientação jurídica em divórcios, guarda de filhos, pensão
+            alimentícia, inventários e outras questões relacionadas às relações
+            familiares.
+            <br />
+            <br />
+            Atendimento cuidadoso para buscar soluções adequadas aos interesses
+            e às necessidades de cada família.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal2,
+        icon: <Users />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+
+      card3: {
+        img: featuresImg3,
+        title: "Direito Trabalhista",
+        subtitle:
+          "Defesa em conflitos trabalhistas, rescisões, verbas e direitos do trabalho.",
+        description: (
+          <div>
+            Atuação em questões envolvendo horas extras, rescisões, verbas
+            trabalhistas, acidentes de trabalho e demais conflitos nas relações
+            de emprego.
+            <br />
+            <br />
+            Análise individual da situação para orientar sobre direitos,
+            obrigações e possíveis medidas jurídicas.
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal3,
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -204,152 +270,118 @@ const content = {
             <rect width="20" height="14" x="2" y="6" rx="2" />
           </svg>
         ),
-        buttonLabelModal: 'Fale Conosco',
-        buttonLabel: 'Saiba Mais',
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
-      card2: {
-        img: featuresImg2,
-        title: 'Rescisão do Contrato e Demissão',
-        subtitle:
-          'Assessoria em justa causa, verbas rescisórias e aviso prévio.',
-        description: (
-          <div>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal2,
-        icon: <FileText />,
-        buttonLabelModal: 'Fale Conosco',
-        buttonLabel: 'Saiba Mais',
-      },
-      card3: {
-        img: featuresImg3,
-        title: 'Acidentes de Trabalho e Doenças Ocupacionais',
-        subtitle: 'Indenizações e estabilidade por lesões e doenças laborais.',
-        description: (
-          <div>
-            A_Definir <br />
-            <br />
-            A_Definir
-          </div>
-        ),
-        imgModal: imgFeaturesCardModal3,
-        icon: <BriefcaseMedical />,
-        buttonLabelModal: 'Fale Conosco',
-        buttonLabel: 'Saiba Mais',
-      },
+
       card4: {
         img: featuresImg4,
-        title: 'Assédio Moral e Discriminação',
-        subtitle: 'Defesa contra assédio, preconceito e violações à dignidade.',
+        title: "Consultoria Jurídica",
+        subtitle:
+          "Orientação preventiva para decisões, contratos e situações jurídicas.",
         description: (
           <div>
-            A_Definir
+            Consultoria para pessoas e empresas que precisam esclarecer dúvidas,
+            avaliar riscos ou tomar decisões com maior respaldo jurídico.
             <br />
-            A_Definir
             <br />
+            Análise de documentos, contratos e situações específicas para
+            prevenir problemas e indicar os caminhos jurídicos adequados.
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
-        icon: <Users />,
-        buttonLabelModal: 'Fale Conosco',
-        buttonLabel: 'Saiba Mais',
+        icon: <FileText />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
       moreFeatures: {
         card1: {
-          ico: 'A_Definir',
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card2: {
-          ico: 'A_Definir',
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
         card3: {
-          ico: 'A_Definir',
-          title: 'A_Definir',
-          subtitle: 'A_Definir',
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
         },
       },
     },
     about: {
       imagem: {
         img: aboutImg1,
-        alt: 'Imagem profissional de escritório',
+        alt: "Imagem profissional de escritório",
       },
-      miniTag: 'QUEM É O DR. LUIS HENRIQUE CABRAL',
-      title: 'Minha trajetória',
+      miniTag: "QUEM É O DR. LUIS HENRIQUE CABRAL",
+      title: "Minha trajetória",
       subtitle:
-        'Compromisso com a justiça e com o bem-estar dos meus clientes.',
+        "Compromisso com a justiça e com o bem-estar dos meus clientes.",
       paragraph: (
         <div>
-          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
-          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
-          jurídicas de qualidade para seus clientes.
+          Com uma carreira sólida e pautada pelo compromisso com seus clientes,
+          o Dr. Luis Henrique Cabral atua oferecendo soluções jurídicas
+          personalizadas, com atendimento próximo, responsável e transparente.
           <br />
-          Sua jornada no Direito começou com o desejo de transformar vidas,
-          oferecendo um suporte legal robusto e humanizado.
+          <br />
+          Ao longo de sua trajetória, acumulou experiência em diferentes áreas
+          do Direito, com atuação em Direito Cível, Direito de Família, Direito
+          Trabalhista e Consultoria Jurídica, auxiliando pessoas e empresas na
+          prevenção e resolução de conflitos.
         </div>
       ),
-      buttonModalLabelAbout: 'Continuar lendo',
+      buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Com uma carreira sólida e focada no compromisso com a justiça, o Dr.
-          Luis Henrique Cabral é um advogado dedicado a proporcionar soluções
-          jurídicas de qualidade para seus clientes. Sua jornada no Direito
-          começou com o desejo de transformar vidas, oferecendo um suporte legal
-          robusto e humanizado.
+          Com uma carreira sólida e pautada pelo compromisso com seus clientes,
+          o Dr. Luis Henrique Cabral atua oferecendo soluções jurídicas
+          personalizadas, com atendimento próximo, responsável e transparente.
           <br />
           <br />
-          Ao longo dos anos, Dr. Luis Henrique acumulou vasta experiência na
-          área do Direito Trabalhista, sempre com foco na ética, transparência e
-          eficiência.
+          Ao longo de sua trajetória, acumulou experiência em diferentes áreas
+          do Direito, com atuação em Direito Cível, Direito de Família, Direito
+          Trabalhista e Consultoria Jurídica, auxiliando pessoas e empresas na
+          prevenção e resolução de conflitos.
           <br />
           <br />
-          Sua atuação é pautada pela busca incansável pela justiça, aliando
-          conhecimentos técnicos à sensibilidade necessária para lidar com as
-          particularidades de cada caso. Dr. Luis Henrique acredita que, além de
-          um bom conhecimento jurídico, é essencial estabelecer uma relação de
-          confiança com os clientes, para que juntos possam enfrentar os
-          desafios legais e encontrar as melhores soluções.
+          Seu trabalho combina conhecimento técnico com uma análise cuidadosa
+          das particularidades de cada situação. Para o Dr. Luis Henrique,
+          compreender as necessidades do cliente é parte essencial do processo
+          para identificar os caminhos jurídicos mais adequados para cada caso.
           <br />
           <br />
-          Em sua trajetória, ele tem se destacado não só pela sua competência
-          técnica, mas também pela sua dedicação em entender as necessidades
-          individuais de cada cliente. Seja em disputas trabalhistas, questões
-          familiares ou defesa do consumidor, Dr. Luis Henrique sempre busca
-          proporcionar um atendimento personalizado e de alta qualidade, com o
-          objetivo de alcançar os melhores resultados possíveis.
+          Seja em questões familiares, conflitos trabalhistas, demandas civis,
+          contratos ou na orientação preventiva para tomada de decisões, sua
+          atuação é conduzida com ética, clareza e dedicação.
           <br />
           <br />
-          O seu compromisso com a justiça é refletido em cada etapa de sua
-          carreira, sendo cada caso uma oportunidade de defender os direitos de
-          seus clientes com a atenção e seriedade que eles merecem.
+          Cada atendimento é tratado de forma individual, buscando proporcionar
+          ao cliente maior compreensão sobre sua situação, seus direitos e as
+          alternativas disponíveis para solucionar o problema apresentado.
           <br />
           <br />
         </p>
       ),
-      ctaButtonAriaLabel: 'Botão para entrar em contato',
-      ctaButtonText: 'Entre em contato',
+      ctaButtonAriaLabel: "Botão para entrar em contato",
+      ctaButtonText: "Entre em contato",
 
       aboutSocial: {
         img: {
           img: aboutSocialImg,
           alt: `Foto do Instagram do ${infos.name}`,
         },
-        miniTag: 'MANTENHA-SE INFORMADO',
-        title: 'Conecte-se e acompanhe novidades e atualizações!',
+        miniTag: "MANTENHA-SE INFORMADO",
+        title: "Conecte-se e acompanhe novidades e atualizações!",
         subtitle:
-          '⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!',
+          "⚖️ Esteja sempre por dentro do mundo jurídico seguindo o Dr. Luis Henrique Cabral nas redes sociais!",
         paragraph: (
           <p>
-            Acompanhe nossas postagens e fique atualizado sobre Direito
-            Trabalhista. Não perca a oportunidade de transformar conhecimento em
-            poder para proteger seus direitos.
+            Acompanhe nossas postagens e não perca a oportunidade de transformar
+            conhecimento em poder para proteger seus direitos.
             <br />
             Garanta sua proteção legal com cada informação compartilhada!
           </p>
@@ -358,161 +390,161 @@ const content = {
     },
     cta: {
       backgroundImg: ctaWhatsappImgBg,
-      miniTag: 'FALE CONOSCO',
+      miniTag: "FALE CONOSCO",
       title:
-        'Enfrentando um problema jurídico? Deixe que cuidamos disso para você!',
+        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
       subtitle:
-        'Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.',
-      ctaButtonText: 'Entre em contato pelo WhatsApp',
+        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+      ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: 'PASSO A PASSO',
-      title: 'Como funciona nosso atendimento?',
-      subtitle: '',
+      miniTag: "PASSO A PASSO",
+      title: "Como funciona nosso atendimento?",
+      subtitle: "",
       img: imgSteps,
-      alt: '',
+      alt: "",
       cards: {
         card1: {
           stepNumber: 1,
-          cardTitle: 'Consulta inicial',
+          cardTitle: "Consulta inicial",
           cardDescription:
-            'Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.',
+            "Realizamos uma reunião para entender seu caso e identificar suas necessidades jurídicas.",
         },
         card2: {
           stepNumber: 2,
-          cardTitle: 'Análise detalhada',
+          cardTitle: "Análise detalhada",
           cardDescription:
-            'Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.',
+            "Examinamos todos os aspectos do seu caso, revisando documentos e evidências para obter uma visão completa.",
         },
         card3: {
           stepNumber: 3,
-          cardTitle: 'Elaboração da estratégia',
+          cardTitle: "Elaboração da estratégia",
           cardDescription:
-            'Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.',
+            "Criamos uma estratégia jurídica personalizada para proteger seus interesses de maneira eficaz.",
         },
         card4: {
           stepNumber: 4,
-          cardTitle: 'Ação legal',
+          cardTitle: "Ação legal",
           cardDescription:
-            'Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.',
+            "Iniciamos e conduzimos as ações judiciais necessárias, buscando a justiça e a solução de que você precisa.",
         },
       },
     },
     blog: {
-      miniTag: 'BLOG',
-      title: 'Informação jurídica ao seu alcance',
+      miniTag: "BLOG",
+      title: "Informação jurídica ao seu alcance",
       subtitle:
-        'Acompanhe conteúdos exclusivos para manter-se sempre informado.',
+        "Acompanhe conteúdos exclusivos para manter-se sempre informado.",
       img: imgSteps,
       blogApiEndpoint:
-        'https://public-api.wordpress.com/rest/v1.1/sites/luishenriquecabraladv.wordpress.com/posts/',
+        "https://public-api.wordpress.com/rest/v1.1/sites/luishenriquecabraladv.wordpress.com/posts/",
 
-      labelCards: 'Ver mais',
-      label: 'Clique aqui para ver todas as matérias',
-      blogLink: 'https://luishenriquecabraladv.wordpress.com/',
+      labelCards: "Ver mais",
+      label: "Clique aqui para ver todas as matérias",
+      blogLink: "https://luishenriquecabraladv.wordpress.com/",
     },
     faq: {
-      miniTag: 'TIRE SUAS DÚVIDAS',
-      title: 'Perguntas Frequentes',
-      subtitle: 'Confira as perguntas abaixo para esclarecer suas dúvidas.',
+      miniTag: "TIRE SUAS DÚVIDAS",
+      title: "Perguntas Frequentes",
+      subtitle: "Confira as perguntas abaixo para esclarecer suas dúvidas.",
       questions: {
         question1: {
-          question: 'Como posso contratar seus serviços?',
+          question: "Como posso contratar seus serviços?",
           answer:
-            'Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.',
+            "Agende sua consulta conosco via WhatsApp e conversaremos sobre suas necessidades e avaliaremos os custos.",
         },
         question2: {
-          question: 'Qual é o prazo médio para resolução de um caso?',
+          question: "Qual é o prazo médio para resolução de um caso?",
           answer:
-            'O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.',
+            "O prazo médio varia conforme a complexidade, mas discutiremos uma estimativa durante a consulta inicial.",
         },
         question3: {
-          question: 'Quais documentos devo levar para a consulta?',
+          question: "Quais documentos devo levar para a consulta?",
           answer:
-            'Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.',
+            "Traga os documentos relevantes ao seu caso, como contratos, correspondências e registros, além de documentos pessoais e comprovante de residência.",
         },
         question4: {
-          question: 'Vocês oferecem serviços de consultoria preventiva?',
+          question: "Vocês oferecem serviços de consultoria preventiva?",
           answer:
-            'Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.',
+            "Sim, oferecemos consultoria preventiva para evitar problemas futuros e garantir conformidade legal.",
         },
       },
-      paragraph: 'Clique aqui caso tenha mais dúvidas',
+      paragraph: "Clique aqui caso tenha mais dúvidas",
     },
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
-      midSectionName: 'Até mais',
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
+      midSectionName: "Até mais",
       footerText:
-        'Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.',
-      footerSocialText: 'Siga a gente nas redes sociais:',
-      footerNavegacaoText: 'NAVEGAÇÃO',
+        "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
+      footerSocialText: "Siga a gente nas redes sociais:",
+      footerNavegacaoText: "NAVEGAÇÃO",
     },
     testimonials: {
-      miniTag: 'A_Definir',
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
+      miniTag: "A_Definir",
+      title: "A_Definir",
+      subtitle: "A_Definir",
       images: {
         img1: {
           img: imgTestimonial1,
-          alt: 'Imagem de feedback',
+          alt: "Imagem de feedback",
         },
         img2: {
           img: imgTestimonial2,
-          alt: 'Imagem de feedback',
+          alt: "Imagem de feedback",
         },
         img3: {
           img: imgTestimonial3,
-          alt: 'Imagem de feedback',
+          alt: "Imagem de feedback",
         },
         img4: {
           img: imgTestimonial4,
-          alt: 'Imagem de feedback',
+          alt: "Imagem de feedback",
         },
       },
     },
     trustedBy: {
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
+      title: "A_Definir",
+      subtitle: "A_Definir",
       trustedMore: {
-        title: 'A_Definir',
-        subtitle: 'A_Definir',
+        title: "A_Definir",
+        subtitle: "A_Definir",
       },
       images: {
         img1: {
           img: { trustedByImg1 },
-          alt: 'marca Rennova',
+          alt: "marca Rennova",
         },
         img2: {
           img: { trustedByImg2 },
-          alt: 'marca Colgate',
+          alt: "marca Colgate",
         },
         img3: {
           img: { trustedByImg3 },
-          alt: 'marca dental Cremer',
+          alt: "marca dental Cremer",
         },
       },
     },
     numbers: {
       backgroundImg: numbersImgBg,
       number1: 7,
-      number1Description: 'A_Definir',
+      number1Description: "A_Definir",
       number2: 500,
-      number2Description: 'A_Definir',
+      number2Description: "A_Definir",
       number3: 1000,
-      number3Description: 'A_Definir',
+      number3Description: "A_Definir",
     },
     team: {
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
+      title: "A_Definir",
+      subtitle: "A_Definir",
       members: {
         member1: {
           img: {
             img: teamMemberImg1,
-            alt: 'Edison Matos',
+            alt: "Edison Matos",
           },
-          name: 'Edison Matos',
-          role: 'CEO & Diretor de Desenvolvimento',
+          name: "Edison Matos",
+          role: "CEO & Diretor de Desenvolvimento",
           socialMedia: {
             icon1: (
               <svg
@@ -532,7 +564,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: 'https://www.linkedin.com/in/edison-matoss/',
+            link1: "https://www.linkedin.com/in/edison-matoss/",
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -550,7 +582,7 @@ const content = {
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
             ),
-            link2: 'https://github.com/EdisonMatos',
+            link2: "https://github.com/EdisonMatos",
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -569,16 +601,16 @@ const content = {
                 <path d="M2 12h20" />
               </svg>
             ),
-            link3: 'https://edisonmatos.github.io/',
+            link3: "https://edisonmatos.github.io/",
           },
         },
         member2: {
           img: {
             img: teamMemberImg2,
-            alt: 'Gabriel Adans',
+            alt: "Gabriel Adans",
           },
-          name: 'Gabriel Adans',
-          role: 'Marketing Outsourcing',
+          name: "Gabriel Adans",
+          role: "Marketing Outsourcing",
           socialMedia: {
             icon1: (
               <svg
@@ -598,7 +630,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: 'https://www.linkedin.com/in/gabriel-adans-2bb029227/',
+            link1: "https://www.linkedin.com/in/gabriel-adans-2bb029227/",
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -616,7 +648,7 @@ const content = {
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
             ),
-            link2: 'https://github.com/GabrielAdans',
+            link2: "https://github.com/GabrielAdans",
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -635,16 +667,16 @@ const content = {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
             ),
-            link3: 'https://www.instagram.com/adansgabriel/',
+            link3: "https://www.instagram.com/adansgabriel/",
           },
         },
         member3: {
           img: {
             img: teamMemberImg3,
-            alt: 'Gabriel Souza',
+            alt: "Gabriel Souza",
           },
-          name: 'Gabriel Souza',
-          role: 'Desenvolvedor Frontend',
+          name: "Gabriel Souza",
+          role: "Desenvolvedor Frontend",
           socialMedia: {
             icon1: (
               <svg
@@ -664,7 +696,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: ' https://www.linkedin.com/in/gabriel-souza-b9945929a',
+            link1: " https://www.linkedin.com/in/gabriel-souza-b9945929a",
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -682,7 +714,7 @@ const content = {
                 <path d="M9 18c-4.51 2-5-2-7-2" />
               </svg>
             ),
-            link2: 'https://github.com/BiellSouza',
+            link2: "https://github.com/BiellSouza",
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -701,16 +733,16 @@ const content = {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
             ),
-            link3: ' https://www.instagram.com/biel.souza.904',
+            link3: " https://www.instagram.com/biel.souza.904",
           },
         },
         member4: {
           img: {
             img: teamMemberImg4,
-            alt: 'Luiz Felipe',
+            alt: "Luiz Felipe",
           },
-          name: 'Luiz Felipe',
-          role: 'Designer Ourtsourcing',
+          name: "Luiz Felipe",
+          role: "Designer Ourtsourcing",
           socialMedia: {
             icon1: (
               <svg
@@ -730,7 +762,7 @@ const content = {
                 <circle cx="4" cy="4" r="2" />
               </svg>
             ),
-            link1: 'https://www.linkedin.com/in/luiz-felipe-leite-95a246192/',
+            link1: "https://www.linkedin.com/in/luiz-felipe-leite-95a246192/",
             icon2: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -749,7 +781,7 @@ const content = {
                 <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
               </svg>
             ),
-            link2: 'https://www.instagram.com/luizleitedesigner/',
+            link2: "https://www.instagram.com/luizleitedesigner/",
             icon3: (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -762,7 +794,7 @@ const content = {
                 <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
               </svg>
             ),
-            link3: 'https://wa.me/+556596241854',
+            link3: "https://wa.me/+556596241854",
           },
         },
       },
@@ -781,15 +813,15 @@ const content = {
       year: currentYear,
       footerexpediente: infos.expediente,
       obsFooter: infos.obs,
-      footerNavegacaoText: 'NAVEGAÇÃO',
-      footerDivulgacaoText: 'Gostaria de ter um site como este? Clique aqui',
+      footerNavegacaoText: "NAVEGAÇÃO",
+      footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
     },
   },
-}
+};
 
 export const abstractions = {
   titleModal: <strong>{content.texts.about.title}</strong>,
   subtitleModal: <strong>{content.texts.about.subtitle}</strong>,
-}
+};
 
-export default content
+export default content;
